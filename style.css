@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Header area CSS code here */
+.hader-area {
+  background-color: #d4ecdd;
+  padding: 25px 0px;
+}
+.menu-area ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.menu-area ul li {
+  display: inline-block;
+}
+
+.menu-area ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  text-align: center;
+  padding: 31px 20px;
+  transition: 0.5s all ease;
+}
+
+.menu-area ul li a:hover {
+  color: #fff;
+  background-color: #152d35;
+}
+/* slider area */
+.slider-area {
+  background-image: url(image/slider-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+.slider-area-table {
+  display: table;
+  height: 650px;
+  width: 100%;
+}
+.slider-area-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.slider-area-text {
+  text-align: left;
+  width: 50%;
+}
+
+.slider-area-text h2 {
+  font-size: 55px;
+  font-weight: 700;
+  width: 85%;
+  color: #fefbf3;
+}
+
+.slider-area-text p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 15px 0px;
+  line-height: 30px;
+  color: #9d9d9d;
+}
+
+.slider-area-text a {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  background-color: #152d35;
+  display: inline-block;
+  padding: 10px 16px;
+  transition: 0.3s all ease;
+}
+
+.slider-area-text a:hover {
+  color: #fff;
+  background-color: #345b63;
+}
+
+/* our history */
+.our-history {
+  background-color: #fff;
+  padding: 80px 0px;
+  border-bottom: 3px solid #d72323;
+}
+.title-sec {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.title-sec h2 {
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #152d35;
+}
+
+.title-sec p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 70%;
+  margin: 0 auto;
+  color: #112031;
+}
+.sec-1 {
+  text-align: center;
+  padding: 40px 30px;
+  background-color: #d4ecdd;
+}
+
+.sec-single i {
+  font-size: 50px;
+  text-align: center;
+}
+
+.sec-single h2 {
+  font-size: 35px;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #112031;
+}
+
+.sec-single p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #345b63;
+}
+
+/* our location */
+.our-location {
+  background-color: #112031;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.custom-clr {
+  color: #fff !important;
+}
+
+/* footer-sec */
+.footer-sec {
+  background-color: #112031;
+  padding: 30px 0px;
+}
+
+.ftr-text h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 55px;
+}
+
+.ftr-text p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+  width: 75%;
+  letter-spacing: 1.5px;
+}
+
+.ftr-sec h2 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.link-sec a {
+  text-decoration: none;
+  color: #d4ecdd;
+}
+
+.link-sec a p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+footer.ftr-bottom {
+  background-color: #345b63;
+  padding: 20px 0px;
+}
+
+.bottom-ftr h2 {
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+}
+.left-footer {
+  float: left;
+  width: 50%;
+}
+.right-footer {
+  text-align: right;
+  float: right;
+  width: 50%;
+}
+
+ul.footer-icon {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.footer-icon li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul.footer-icon li a {
+  font-size: 15px;
+  color: #000;
+}
+
+/* OWL Carousel Custom code here, also for stop loop js line 188 */
+
+.ak-img {
+  text-align: center;
+}
+
+.ak-img img {
+  width: 60% !important;
+  margin: 0 auto;
+}
+
+/* Team Section code here */
+.team-sec {
+  padding: 80px 0px;
+}
+.custom-padding {
+  padding-bottom: 80px;
+  padding-top: 10px;
+}
+.team-box {
+  text-align: center;
+  position: relative;
+}
+
+.team-box img {
+  width: 90%;
+}
+
+.team-text h2 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #072227;
+}
+
+.team-text span {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  display: inline-block;
+  padding-bottom: 7px;
+}
+
+.team-text p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.team-text {
+  background-color: #aefeff;
+  padding: 40px 0px;
+  position: absolute;
+  top: 185px;
+  transition: 0.5s all ease;
+  transform: translateZ(25px) scaleY(0);
+}
+
+.team-box:hover .team-text {
+  transform: translateZ(20px) scaleY(1);
+}
+/* Company section code here */
+.company-section {
+  padding: 60px 0px;
+}
+
+.owl-stage-outer {
+  padding-bottom: 15px;
+}

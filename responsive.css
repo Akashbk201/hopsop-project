@@ -1,0 +1,239 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+  .menu-area ul li a {
+    padding: 31px 10px;
+    font-size: 18px;
+  }
+
+  .logo-area a img {
+    width: 70%;
+  }
+
+  .slider-area-text h2 {
+    font-size: 45px;
+    width: 100%;
+  }
+
+  .slider-area-text p {
+    font-size: 16px;
+  }
+
+  .slider-area-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .title-sec h2 {
+    font-size: 55px;
+  }
+
+  .title-sec p {
+    font-size: 16px;
+  }
+
+  .sec-single i {
+    font-size: 35px;
+  }
+
+  .sec-single h2 {
+    font-size: 20px;
+  }
+
+  .sec-single p {
+    font-size: 15px;
+  }
+
+  .sec-single {
+    padding: 0px 0px;
+  }
+
+  .sec-1 {
+    padding: 25px 5px;
+  }
+
+  .team-text h2 {
+    font-size: 25px;
+  }
+
+  .team-text p {
+    width: 100%;
+    font-size: 16px;
+    padding: 0px 5px;
+  }
+
+  .team-text {
+    padding: 20px 0px;
+    top: 110px;
+  }
+
+  .ftr-text h2 {
+    font-size: 45px;
+  }
+
+  .ftr-text p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .right-footer {
+    width: 60%;
+  }
+
+  .bottom-ftr h2 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+/* Mobile View */
+@media (min-width: 320px) and (max-width: 480px) {
+  .logo-area {
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  .menu-area ul li a {
+    padding: 0px 0px;
+    text-align: center;
+  }
+
+  .menu-area ul li {
+    padding: 0px 10px;
+    border-right: 1px solid #000;
+  }
+
+  .menu-area ul {
+    text-align: center;
+  }
+
+  .menu-area ul li:last-child {
+    border-right: none;
+  }
+
+  .slider-area-text h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .slider-area-text p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .slider-area-text a {
+    padding: 3px 8px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .slider-area-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .title-sec h2 {
+    font-size: 45px;
+  }
+
+  .title-sec p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .sec-1 {
+    margin-bottom: 15px;
+  }
+
+  .sec-single h2 {
+    font-size: 25px;
+  }
+
+  .sec-single p {
+    font-size: 16px;
+  }
+
+  .team-box {
+    margin-bottom: 15px;
+  }
+
+  .ftr-text {
+    text-align: center;
+  }
+
+  .ftr-text p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .ftr-sec {
+    text-align: center;
+  }
+
+  .bottom-ftr h2 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .right-footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  ul.footer-icon li a {
+    font-size: 20px;
+  }
+
+  .team-text h2 {
+    font-size: 20px;
+  }
+
+  .team-text span {
+    font-size: 14px;
+  }
+
+  .team-text p {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .team-text {
+    padding: 20px 0px;
+    top: 120px;
+  }
+}
